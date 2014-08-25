@@ -487,14 +487,17 @@ h3{
 
 .container{
   width: 768px;
+  padding: 3em 1em 3em 1em;
 }
 
 .container-body{
   width: 768px;
+  padding: 3em 1em 3em 1em;
 }
 
 .container-header{
   width: 768px;
+  padding: 3em 1em 3em 1em;
 }
 
 /* ==========================================================================
