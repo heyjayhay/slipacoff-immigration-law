@@ -123,14 +123,12 @@ html, body{
 #summary .bcg{
   background-image:url(../img/bcg_slide-1.jpg);
   width: 100%;
-  background-size: cover;
   background-position: top;
 }
 
 #profile .bcg{
   background-image:url(../img/bcg_slide-2.jpg);
   width: 100%;
-  background-size: cover;
   background-position: top;
 }
 
@@ -250,7 +248,13 @@ a{
   }
   .unit-xs-1 {
     display: block;
+    visibility: visible;
+    width: 100%;
+
   }
+.unit-offset-xs-0{
+    margin-left: 0;
+}
   .unit-xs-1-2 {
     width: 50%;
   }
@@ -272,6 +276,7 @@ a{
    ========================================================================== */
 .container{
   width: 300px;
+  padding: 3em 0 3em 0;
 }
 
 .container-body{
@@ -296,10 +301,44 @@ address{
 
 p.title{
   display: block;
+  margin: 3px 0 3px 0;
+}
+
+.footer p.title {
+  margin: 8px 0 8px 0;
 }
 
 .number{
   display: block;
+  padding: 0;
+}
+
+.float-right{
+  float: left;
+}
+
+.unit-spacer-sides-xs{
+  margin: 5px 10px 5px 0;
+}
+
+.footer-title{
+
+}
+
+.philosophy{
+  margin-top: 1.5em;
+}
+
+.unit-spacer{
+  padding: 0;
+}
+
+ul li{
+  line-height: 20px;
+}
+
+li{
+  padding: 3px 0 3px 0;
 }
 
 }
@@ -311,6 +350,12 @@ p.title{
   }
   .unit-s-1 {
     display: block;
+    width: 100%;
+    display: visible;
+  }
+
+  .unit-offset-s-0{
+    margin-left: 0;
   }
   .unit-s-1-2 {
     width: 50%;
@@ -332,19 +377,37 @@ p.title{
    Containers
    ========================================================================== */
 .container{
-  width: 450px;
+  width: 550px;
+  padding: 3em 0 3em 0;
 }
 
 .container-body{
-  width: 450px;
+  width: 550px;
+  padding: 3em 0 3em 0;
 }
 
 .container-header{
-  width: 450px;
+  width: 550px;
 }
 
 h2{
   font-size: 2.5em;
+}
+
+.float-right{
+  float: left;
+}
+
+.unit-spacer-sides-s{
+  margin: 5px 10px 5px 0;
+}
+
+.left{
+  text-align: left;
+}
+
+.philosophy{
+  margin-top: 1em;
 }
 
 }
@@ -357,6 +420,7 @@ h2{
   }
   .unit-m-1 {
     display: block;
+
   }
   .unit-m-1-2 {
     width: 50%;
@@ -441,6 +505,8 @@ li{
   padding: 3px;
 }
 
+
+
 }
 @media only screen and (min-width: 60em) {
   .unit-l-hidden {
@@ -449,6 +515,7 @@ li{
   }
   .unit-l-1 {
     display: block;
+    width: 100%;
   }
   .unit-l-1-2 {
     width: 50%;
