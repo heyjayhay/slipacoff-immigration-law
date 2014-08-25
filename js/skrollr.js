@@ -5,6 +5,14 @@
  *
  * Free to use under terms of MIT license
  */
+ $(function() {
+     var windowWidth = $(window).width();
+     if(windowWidth > 767){
+  skrollr.init({
+  forceHeight: false
+  });
+  }});
+ 
 (function(window, document, undefined) {
 	'use strict';
 
