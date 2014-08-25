@@ -247,8 +247,8 @@ a{
     background-size: cover;
     height: 100%;
     width: 100%;
+    background-attachment: scroll;
   }
-
 
   .unit-s-hidden {
     display: none;
@@ -356,8 +356,9 @@ li{
     background-size: cover;
     height: 100%;
     width: 100%;
+    background-attachment: scroll;
   }
-  
+
   .unit-s-hidden {
     display: none;
     visibility: hidden;
@@ -406,6 +407,10 @@ li{
 
 h2{
   font-size: 2.5em;
+}
+
+h3{
+  font-size: 2em;
 }
 
 .float-right{
