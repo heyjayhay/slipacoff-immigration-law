@@ -242,6 +242,14 @@ a{
 }
 
 @media only screen and (max-width: 38em) {
+
+  .bcg{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+
   .unit-s-hidden {
     display: none;
     visibility: hidden;
@@ -344,6 +352,12 @@ li{
 }
 
 @media only screen and (min-width: 38em) and (max-width: 48em){
+    .bcg{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
   .unit-s-hidden {
     display: none;
     visibility: hidden;
@@ -504,8 +518,6 @@ ul li{
 li{
   padding: 3px;
 }
-
-
 
 }
 @media only screen and (min-width: 60em) {
