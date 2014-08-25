@@ -527,6 +527,10 @@ li{
   padding: 3px;
 }
 
+.philosophy{
+  margin-top: 0;
+}
+
 }
 @media only screen and (min-width: 60em) {
   .unit-l-hidden {
