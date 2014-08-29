@@ -336,20 +336,20 @@ a.anchor3{
    Containers
    ========================================================================== */
 .container{
-  width: 350px;
+  width: 300px;
   padding: 3em 0 3em 0;
 }
 
 .container-body{
-  width: 350px;
+  width: 300px;
   padding: 3em 0 3em 0;
 }
 
 .container-header{
-  width: 350px;
+  width: 300px;
 }
 .container-footer{
-  width: 350px;
+  width: 300px;
 }
 
 h1{
