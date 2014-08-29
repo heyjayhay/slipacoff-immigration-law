@@ -424,15 +424,15 @@ li{
 }
 
 a.anchor{
-  display: block; position: relative; top: -200px; visibility: hidden;
+  display: block; position: relative; top: -150px; visibility: hidden;
 }
 
 a.anchor2{
-  display: block; position: relative; top: -275px; visibility: hidden;
+  display: block; position: relative; top: -100px; visibility: hidden;
 }
 
 a.anchor3{
-  display: block; position: relative; top: -250px; visibility: hidden;
+  display: block; position: relative; top: -150px; visibility: hidden;
 }
 
 
