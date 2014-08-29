@@ -17,18 +17,24 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/responsivemobilemenu.css">
 
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 		</style>
     </head>
+      </div>
+    </nav>
     <body>
 			<div class="header navigation">
 				<div class="container-header">
 					<div class="grid">
-						<div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
+						<div class="unit unit-xs-hidden unit-s-1-2 unit-m-1-2 unit-l-1-2">
 							<h1 class="title">Slipacoff Immigration Law</h1>	
 						</div>	
-						<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 ">
+						<div class="unit unit-xs-1 unit-s-hidden unit-m-hidden unit-l-hidden">
+							<h1 class="title">Slipacoff<br> Immigration Law</h1>	
+						</div>
+						<div class="unit unit-xs-hidden unit-s-hidden unit-m-visible unit-l-1-2 ">
 							<div id="nav" class="number ">
 								<ul class="white right">
 									<li class="right"><a href="#about">About</a></li>
@@ -37,7 +43,15 @@
 									<li class="right contact"><a href="#contact">Contact</a></li>
 								</ul>	
 							</div>
-						</div>	
+						</div>
+						<div class='unit unit-xs-1-2 unit-s-1-2 unit-m-hidden unit-l-hidden rmm' data-menu-style = "minimal">
+            				<ul class="right">
+                				<li><a href="#about">About</a></li>
+                				<li><a href="#services">Services</a></li>
+                				<li><a href="#philosophy">Philosophy</a></li>
+               					<li><a href="#contact">Contact</a></li>
+          					</ul>
+						</div>		
 					</div>
 			<hr class="hr">
 					<div class="grid">
@@ -155,6 +169,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/enquire.js"></script>
+        <script src="js/responsivemobilemenu.js"></script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/_main.js"></script>
@@ -166,6 +181,7 @@
         return false;
     });
 </script>
+
 
     </body>
 </html>
