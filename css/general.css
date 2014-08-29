@@ -347,9 +347,13 @@ a.anchor3{
 
 .container-header{
   width: 250px;
+  padding: 3em 0 3em 0;
+
 }
 .container-footer{
   width: 250px;
+  padding: 3em 0 3em 0;
+
 }
 
 h1{
