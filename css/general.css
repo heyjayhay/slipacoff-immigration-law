@@ -317,7 +317,7 @@ a.anchor3{
     margin-left: 0;
 }
   .unit-xs-1-2 {
-    width: 50%;
+    width: 49%;
   }
   .unit-xs-1-3 {
     width: 33.33333%;
@@ -373,7 +373,6 @@ address{
 }
 
 p.title{
-  display: block;
   margin: 3px 0 3px 0;
 }
 
